@@ -1,0 +1,21 @@
+[anyproxy]
+rule_js_path = ""
+
+[youtube]
+key_path = ""
+combine_video_path = ''
+
+[douyin]
+store_path = ''
+video_type = ""
+
+[DataBase]
+driver_name = ""
+
+alias_name = ""
+user_name = "root"
+password = ""
+ip = "127.0.0.1"
+port = "3306"
+db_name = "douyin2youtube"
+charset = "utf-8"

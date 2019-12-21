@@ -1,0 +1,19 @@
+[gin]
+addr = 8090
+
+[app]
+packageName = "com.ss.android.ugc.aweme" # 抖音app包名
+startPath = ".main.MainActivity" # 抖音app包首页path
+restart = 60 # 重新打开时间  单位秒
+sleep = 60 # 重新打开睡眠时间  单位秒
+
+
+
+[swipe]
+startX = 500
+startY = 1000
+endX = 489
+endY = 123
+sleep = 3000 # 滑动等待时间  单位毫秒
+
+
